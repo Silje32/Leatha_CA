@@ -209,21 +209,27 @@ footer p a:hover {
   font-family: inherit;
   margin: 0;
 }
-.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+.navbar a:hover, .dropdown:hover .dropbtn .dropbtn:focus {
   background-color: lightyellow;
   font-size: 20px;
 }
+/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
+  display: block;
   position: absolute;
-  background-color: #F7A31E;
-  min-width: 160px;
+  background-color: pink;
+  min-width: 100%;
+  overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #F7A31E;
+  background-color: lightyellow;
 }
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content
+container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
@@ -567,6 +573,61 @@ header  {
   margin-left: 2px;
   margin-right: 80px;
 }
+/*  Nav -bar  */
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #F7A31E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  cursor: pointer;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #F7A31E;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn .dropbtn:focus {
+  background-color: lightyellow;
+  font-size: 20px;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: block;
+  position: absolute;
+  background-color: pink;
+  min-width: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: lightyellow;
+}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content
+container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+
 li {
   display: inline;
   margin-left: 30px;
