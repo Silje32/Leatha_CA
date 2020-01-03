@@ -31,10 +31,19 @@ h1 {
   margin-bottom: 80px;
   display: inline;
 }
-.main-heading {
+header h1 {
   font-family: 'Montserrat','Verdana', 'sans serif';
   color: white;
-  font-size: 40px;
+  font-size: 60px;
+}
+article {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 35%;
+  background-color: white;
 }
 .about {
   text-align: left;
@@ -45,7 +54,7 @@ h1 {
 .name {
   margin-left: 245px;
 }
-h2, h3 {
+h2 {
   font-weight: bold;
   font-size: 40px;
   text-align: center;
@@ -54,6 +63,10 @@ h2, h3 {
   text-shadow: 1px 1px 4px #1B1464;
   position: relative;
   left: 30px;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
 }
 p {
   color: white;
@@ -132,6 +145,15 @@ blockquote {
   font-size: 30px;
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
+}
+.col1 {
+
+}
+.col2 {
+
+}
+.col3 {
+
 }
 main ul li {
   color: white;
@@ -340,11 +362,10 @@ h1 {
   font-size: 50px;
   text-align: center;
   color: white;
-  padding: 10px;
   margin-left: 30px;
 }
-.main-heading {
-  font-size: 45px;
+header h1 {
+  font-size: 60px;
   margin-left: 20px;
   color: white;
 }
@@ -571,6 +592,24 @@ header  {
   margin-left: 2px;
   margin-right: 80px;
 }
+header h1 {
+  font-family: 'Montserrat','Verdana', 'sans serif';
+  color: white;
+  font-size: 60px;
+}
+h3 {
+  font-size: 20px;
+  text-align: center;
+}
+article {
+  float: left;
+  width: 60%;
+}
+aside {
+  float: right;
+  width: 40%;
+  background-color: white;
+}
 /*  Nav -bar  */
 .navbar {
   overflow: hidden;
@@ -624,7 +663,15 @@ container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
+.col1 {
 
+}
+.col2 {
+
+}
+.col3 {
+
+}
 
 li {
   display: inline;
