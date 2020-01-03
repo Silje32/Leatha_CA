@@ -217,8 +217,8 @@ footer p a:hover {
 .dropdown-content {
   display: block;
   position: absolute;
-  background-color: pink;
-  min-width: 100%;
+  background-color: white;
+  min-width: 30%;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -239,20 +239,14 @@ container when the user clicks on the dropdown button) */
 -------------------*/
 
 .urbana {
-  float:left
-  width: 40%;
 }
 .hiker {
-  float: left;
 }
 .brogue {
-  float: left;
 }
 .easy {
-  float: left;
 }
 .casual {
-  float: left;
 }
 
 
@@ -503,20 +497,14 @@ input[type="booking"] {
   margin-top: 40px;
 }
 .urbana {
-  float:left
-  width: 30%;
 }
 .hiker {
-  float: left;
 }
 .brogue {
-  float: left;
 }
 .easy {
-  float: left;
 }
 .casual {
-  float: left;
 }
 footer  {
   background: white;
@@ -541,6 +529,16 @@ footer p a {
 @media only screeen and (max-width: 768px) {
   body {
     background-color: black;
+}
+.urbana {
+}
+.hiker {
+}
+.brogue {
+}
+.easy {
+}
+.casual {
 }
 }
 
@@ -610,8 +608,8 @@ header  {
 .dropdown-content {
   display: block;
   position: absolute;
-  background-color: pink;
-  min-width: 100%;
+  background-color: white;
+  min-width: 30%;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -646,6 +644,20 @@ main ul li {
 }
 .textWrap img {
   float: left;
+}
+
+/* Images
+-------------------*/
+
+.urbana {
+}
+.hiker {
+}
+.brogue {
+}
+.easy {
+}
+.casual {
 }
 footer  {
   background: white;
