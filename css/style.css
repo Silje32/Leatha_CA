@@ -16,43 +16,26 @@ html, body {
   font-family: 'Rockwell', 'Times Roman', serif;
   font-weight: italic;
   font-size: 16px;
-  line-height: 150%;
+  line-height: 200%;
   margin: 0 auto;
 }
 h1, h2, h3 {
     font-family: 'Montserrat','Verdana', 'sans serif';
-    color: white;
+    color: black;
 }
 h1 {
   font-weight: oblique;
   font-size: 40px;
   text-shadow: 1px 1px 4px #1B1464;
   padding: 10px;
-  margin-bottom: 80px;
+  margin-bottom: 40px;
   display: inline;
 }
 header h1 {
   font-family: 'Montserrat','Verdana', 'sans serif';
-  color: white;
+  color: black;
   font-size: 60px;
-}
-article {
-  float: left;
-  width: 60%;
-}
-aside {
-  float: right;
-  width: 35%;
-  background-color: white;
-}
-.about {
-  text-align: left;
-}
-.tours {
-  margin-left: 280px;
-}
-.name {
-  margin-left: 245px;
+  text-align: center;
 }
 h2 {
   font-weight: bold;
@@ -67,6 +50,45 @@ h2 {
 h3 {
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
+}
+.news {
+  text-align: center;
+}
+article {
+  float: left;
+  width: 600px;
+}
+aside {
+  float: right;
+  width: 410px;
+  background-color: white;
+  height: 500px;
+  margin-top: 70px;
+  margin: 0 auto;
+}
+.col1 {
+  background-color: white;
+  height: 500px;
+  float: left;
+  padding: 10px;
+  width: 270px;
+}
+.col2 {
+  background-color: white;
+  height: 500px;
+  float: right;
+  padding: 10px;
+  width: 270px;
+}
+.about {
+  text-align: left;
+}
+.tours {
+  margin-left: 280px;
+}
+.name {
+  margin-left: 245px;
 }
 p {
   color: white;
@@ -86,13 +108,6 @@ li {
 main ul li {
   display: block;
   text-align: center;
-}
-.textWrap {
-  margin-top: 50px;
-}
-.textWrap img {
-  float: left;
-  margin: 0 35px 35px 0px;
 }
 .clearfix {
   margin-top: 50px;
@@ -146,15 +161,6 @@ blockquote {
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
 }
-.col1 {
-
-}
-.col2 {
-
-}
-.col3 {
-
-}
 main ul li {
   color: white;
   font-size: 30px;
@@ -175,6 +181,8 @@ header  {
   z-index: 1;
   border-radius: 6px;
   margin : 0 auto;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
 footer  {
   background: white;
@@ -269,16 +277,6 @@ container when the user clicks on the dropdown button) */
 .easy {
 }
 .casual {
-}
-
-
-/* Dropcap styles */
-.dropcap p:first-of-type:first-letter  {
-float: left;
-font-family: 'Montserrat','Verdana', 'sans serif';
-font-size: 40px;
-margin: 0 6px 0px 0;
-line-height: 0,9;
 }
 
 /* Form styles */
@@ -431,11 +429,6 @@ li {
   clear: both;
   display: table;
 }
-.textWrap img {
-  float: left;
-  margin-top: 30px;
-  margin-right: 10px;
-}
 .tours {
   margin-left: 90px;
 }
@@ -514,9 +507,6 @@ input[type="booking"] {
   text-align: center;
   border-radius: 6px;
 }
-.dropcap {
-  margin-top: 40px;
-}
 .urbana {
 }
 .hiker {
@@ -575,7 +565,6 @@ h1 {
   text-align: center;
   color: white;
   padding: 10px;
-  margin: 30px auto;
   display: block;
 }
 header  {
@@ -587,8 +576,8 @@ header  {
   max-width: 1260px;
   z-index: 1;
   border-radius: 6px;
-  margin-top: 1px;
-  margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 40px;
   margin-left: 2px;
   margin-right: 80px;
 }
@@ -596,20 +585,42 @@ header h1 {
   font-family: 'Montserrat','Verdana', 'sans serif';
   color: white;
   font-size: 60px;
+  text-align: center;
 }
 h3 {
   font-size: 20px;
   text-align: center;
+  font-weight: bold;
+}
+.news {
+  text-align: center;
 }
 article {
   float: left;
-  width: 60%;
+  width: 600px;
 }
 aside {
   float: right;
-  width: 40%;
+  width: 410px;
   background-color: white;
+  margin-top: 70px;
+  margin: 0 auto;
 }
+.col1 {
+  background-color: white;
+  height: 500px;
+  float: left;
+  padding: 10px;
+  width: 270px;
+}
+.col2 {
+  background-color: white;
+  height: 500px;
+  float: right;
+  padding: 10px;
+  width: 270px;
+}
+
 /*  Nav -bar  */
 .navbar {
   overflow: hidden;
@@ -663,16 +674,6 @@ container when the user clicks on the dropdown button) */
 .show {
   display: block;
 }
-.col1 {
-
-}
-.col2 {
-
-}
-.col3 {
-
-}
-
 li {
   display: inline;
   margin-left: 30px;
@@ -689,14 +690,11 @@ main ul li {
   display: block;
   text-align: center;
 }
-.textWrap img {
-  float: left;
-}
 
 /* Images
 -------------------*/
-
 .urbana {
+  width: 30%;
 }
 .hiker {
 }
