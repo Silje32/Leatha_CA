@@ -2,10 +2,9 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta name="description" content="A page for explaining the history of Letha,
-      where to find us and how to contact us">
+      <meta name="description" content="A page for filling in contact information">
       <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title> ABOUT </title>
+      <title> FORM PAGE </title>
 
       <!-- Typeface: Montserrat -->
       <link rel="stylesheet"
@@ -44,25 +43,33 @@
            </nav>
        </header>
            <main>
-                 <section class="col-1">
-                   <h2>OUR HISTORY</h2>
-                 </section>
-                 <section class="col-2">
-                   <h2 class="location">LOCATION</h2>
-                      <ul class="visit">
-                         <li>Leatha shoes</li>
-                         <li>Steinkjellergaten 3</li>
-                         <li>5010 BERGEN</li>
-                      </ul>
-                   <div class="map">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12
-                          !1m3!1d1971.7860911172168!2d5.323465915677153!3d60.38269343316
-                          134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x463cf9
-                          54d486b8cb%3A0x5699f840b49f3527!2sThorm%C3%B8hlens+Gate+45%2C+
-                          5006+Bergen!5e0!3m2!1sen!2sno!4v1556534214212!5m2!1sen!2sno"
-                          width="600" height="450" frameborder="0" style="border:0"
-                          allowfullscreen></iframe>">
-                   </div>
+                 <section class="col-3">
+                    <form method="get">
+                      <div id="contact">
+                         <fieldset>
+                             <legend>Contact details</legend>
+                             <div>
+                             <label>Full Name:
+                             <input type="text" name="name" /></label>
+                             </div>
+                             <div>
+                             <label>E-mail:
+                             <input type="text" name="lastName" /></label>
+                             </div>
+                             <div>
+                             <label>Phone number:
+                             <input type="text" name="Address" /></label>
+                             </div>
+                         </fieldset>
+                             <div class="message">
+                             <label>Your message:
+                             <textarea name="message">Enter your message...</textarea>
+                             </div>
+                             </div>
+                             <div>
+                             <input type="submit" name="order" value="SEND"/>
+                             </div>
+                    </form>
                  </section>
            </main>
        <footer>
