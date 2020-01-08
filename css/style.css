@@ -67,19 +67,19 @@ aside {
   float: right;
   width: 410px;
   background-color: white;
-  height: 500px;
-  margin-top: 70px;
+  height: 600px;
+  margin-top: 60px;
 }
 .col1 {
   background-color: white;
-  height: 500px;
+  height: 600px;
   float: left;
   padding: 10px;
   width: 270px;
 }
 .col2 {
   background-color: white;
-  height: 500px;
+  height: 600px;
   float: right;
   padding: 10px;
   width: 270px;
@@ -87,23 +87,25 @@ aside {
 .location {
   margin: 0 auto;
 }
-ul.visit {
+.visit {
   color: black;
   font-family: 'Rockwell', 'Times Roman', serif;
   padding: 20px;
   text-align: center;
+  background-color: #F7A31E;
 }
 .map {
   color: black;
   visibility: visible;
   display: block;
-  width: 30%;
-}
-.tours {
-  margin-left: 280px;
+  width: 20%;
+  margin-bottom: 5px;
 }
 .name {
   margin-left: 245px;
+}
+.care {
+  background-color: white;
 }
 p {
   color: white;
@@ -124,27 +126,10 @@ main ul li {
   display: block;
   text-align: center;
 }
-.clearfix {
-  margin-top: 50px;
-}
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 .ready {
   text-align: center;
   font-size: 20px;
   margin-top: 50px;
-}
-blockquote {
-  color: #1B1464;
-  box-shadow: 5px 5px 5px 5px #1B1464;
-  float: left;
-  text-align: center;
-  padding: 30px;
-  margin-left: 135px;
-  margin-top: 30px;
 }
 .shoe1 {
   color: black;
@@ -160,22 +145,23 @@ blockquote {
 }
 .col-1 {
   float: left;
-  width: 42%;
-  height: 500px;
+  width: 60%;
+  height: 1090px;
   padding: 5px;
   margin-top: 5px;
   background-color: white;
 }
 .col-2 {
   float: right;
-  width: 42%;
-  height: 500px;
+  width: 25%;
+  height: 850px;
   padding: 5%;
   margin-top: 5px;
   background-color: white;
 }
-.col-3 {
-  background-color: white;
+.heading_times {
+  font-family: 'Rockwell', 'Times Roman', serif;
+  font-size: 25px;
 }
 .search {
   margin-top: 80px;
@@ -185,11 +171,22 @@ blockquote {
   font-size: 30px;
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
+  color: lightyellow;
 }
-main ul li {
-  color: white;
-  font-size: 30px;
+.our-products {
   padding: 20px;
+  font-size: 30px;
+  font-family: 'Rockwell', 'Times Roman', serif;
+  font-weight: bold;
+  text-align: center;
+  line-height: 150%;
+  color: white;
+  position: relative;
+  left: 10px;
+  margin-top: 40px;
+}
+.products {
+  color: white;
 }
 
 /* Header and Footer
@@ -229,7 +226,7 @@ footer p a {
     margin: 350px;
 }
 footer p a:visited {
-  color: #93D0D9;
+  color: black;
 }
 footer p a:hover {
   color: black;
@@ -447,9 +444,6 @@ li {
   clear: both;
   display: table;
 }
-.tours {
-  margin-left: 90px;
-}
 main ul li {
   display: block;
   text-align: center;
@@ -524,6 +518,7 @@ input[type="booking"] {
   font-family: 'Rockwell', 'Times Roman', serif;
   text-align: center;
   border-radius: 6px;
+  color: lightyellow;
 }
 .urbana {
   width: 40%;
@@ -620,41 +615,43 @@ article {
 aside {
   float: right;
   width: 410px;
+  height: 600px;
   background-color: white;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .col1 {
   background-color: white;
-  height: 500px;
+  height: 600px;
   float: left;
   padding: 10px;
   width: 270px;
 }
 .col2 {
   background-color: white;
-  height: 500px;
+  height: 600px;
   float: right;
   padding: 10px;
   width: 270px;
 }
 .col-1 {
   float: left;
-  width: 42%;
-  height: 500px;
+  width: 60%;
+  height: 1090px;
   padding: 5px;
   margin-top: 5px;
   background-color: white;
 }
 .col-2 {
   float: right;
-  width: 42%;
-  height: 500px;
+  width: 25%;
+  height: 850px;
   padding: 5%;
   margin-top: 5px;
   background-color: white;
 }
-.col-3 {
-  background-color: white;
+.heading_times {
+  font-family: 'Rockwell', 'Times Roman', serif;
+  font-size: 25px;
 }
 .shoe1 {
   color: black;
@@ -748,7 +745,7 @@ footer  {
   background: white;
   color: #F7A31E;
   padding: 10px;
-  width: 98%;
+  width: 100%;
   border-radius: 6px;
   margin-top: 20px;
   clear: both;
