@@ -338,12 +338,13 @@ container when the user clicks on the dropdown button) */
 .urbana {
   width: 60%;
   padding: 20px;
+  border-radius: 50%;
 }
 .hiker {
   width: 60%
-  padding: 20px;
 }
 .brogue {
+  width: 100%
 }
 .easy {
 }
@@ -770,8 +771,9 @@ main ul li {
 /* Images
 -------------------*/
 .urbana {
-  width: 60%;
-  padding: 20px;
+  width: 70%;
+  padding: 10px;
+  border-radius: 30%;
 }
 .hiker {
   width: 60%;
