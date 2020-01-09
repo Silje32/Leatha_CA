@@ -1,7 +1,7 @@
 /*Color Palette
 01. black
 02. white
-03. red
+03. #FF6D05 - dark orange
 04. #F7A31E - orange
 05. lightyellow
 */
@@ -67,8 +67,7 @@ aside {
   float: right;
   width: 410px;
   background-color: white;
-  height: 600px;
-  margin-top: 60px;
+  height: 590px;
 }
 .col1 {
   background-color: white;
@@ -84,6 +83,18 @@ aside {
   padding: 10px;
   width: 270px;
 }
+button {
+  width: 230px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #FF6D05;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 6px;
+}
+
 .location {
   margin: 0 auto;
 }
@@ -101,14 +112,8 @@ aside {
   width: 20%;
   margin-bottom: 5px;
 }
-.name {
-  margin-left: 245px;
-}
 .care {
   background-color: white;
-}
-p {
-  color: white;
 }
 li a {
   margin-right: 150px;
@@ -135,13 +140,53 @@ main ul li {
   color: black;
   padding: 10px;
 }
-.shoe3 {
-  clear: both;
+.shoe2 {
+  background-color: white;
+  float: right;
+  width: 300px;
+  height: 500px;
 }
-.center {
-  text-align: center;
-  font-size: 20px;
-  margin-top: 60px;
+.shoe2_img {
+  background-color: white;
+  width: 410px;
+  height: 500px;
+  float: left;
+}
+.shoe3_img {
+  background-color: white;
+  width: 410px;
+  height: 500px;
+  float: left;
+}
+.shoe4_img {
+  background-color: white;
+  width: 410px;
+  height: 500px;
+  float: left;
+}
+.shoe5_img {
+  background-color: white;
+  width: 410px;
+  height: 500px;
+  float: left;
+}
+.shoe3 {
+  background-color: white;
+  float: right;
+  width: 400px;
+  height: 500px;
+}
+.shoe4 {
+  background-color: white;
+  float: right;
+  width: 400px;
+  height: 500px;
+}
+.shoe5 {
+  background-color: white;
+  float: right;
+  width: 400px;
+  height: 500px;
 }
 .col-1 {
   float: left;
@@ -217,13 +262,13 @@ footer  {
   clear: both;
 }
 footer p a {
-    color: #F7A31E;
+    color: #FF6D05;
     text-decoration: none;
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin: 350px;
+    margin-left: 400px;
 }
 footer p a:visited {
   color: black;
@@ -295,6 +340,8 @@ container when the user clicks on the dropdown button) */
   padding: 20px;
 }
 .hiker {
+  width: 60%
+  padding: 20px;
 }
 .brogue {
 }
@@ -386,9 +433,6 @@ h1 {
   color: white;
   margin-left: 30px;
 }
-.name {
-  margin-left: 25px;
-}
 h2, h3 {
   font-weight: bold;
   font-size: 20px;
@@ -438,11 +482,6 @@ li a {
 }
 li {
   display: block;
-}
-.container:after {
-  content: "";
-  clear: both;
-  display: table;
 }
 main ul li {
   display: block;
@@ -615,9 +654,8 @@ article {
 aside {
   float: right;
   width: 410px;
-  height: 600px;
+  height: 590px;
   background-color: white;
-  margin-top: 60px;
 }
 .col1 {
   background-color: white;
@@ -656,7 +694,9 @@ aside {
 .shoe1 {
   color: black;
 }
-
+.shoe2 {
+  background-color: white;
+}
 /*  Nav -bar  */
 .navbar {
   overflow: hidden;
@@ -734,6 +774,8 @@ main ul li {
   padding: 20px;
 }
 .hiker {
+  width: 60%;
+  padding: 20px;
 }
 .brogue {
 }
@@ -743,11 +785,19 @@ main ul li {
 }
 footer  {
   background: white;
-  color: #F7A31E;
   padding: 10px;
   width: 100%;
   border-radius: 6px;
   margin-top: 20px;
   clear: both;
+}
+footer p a {
+    color: #FF6D05;
+    text-decoration: none;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;
 }
 }
