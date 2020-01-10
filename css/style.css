@@ -57,7 +57,6 @@ h3 {
 }
 .news {
   text-align: center;
-  margin: 0 auto;
 }
 article {
   float: left;
@@ -67,7 +66,8 @@ aside {
   float: right;
   width: 410px;
   background-color: white;
-  height: 450px;
+  height: 480px;
+  margin-bottom: 5px;
 }
 .col1 {
   background-color: white;
@@ -186,12 +186,13 @@ main ul li {
   height: 1090px;
   padding: 5px;
   margin-top: 5px;
+  margin-bottom: 5px;
   background-color: white;
 }
 .col-2 {
   float: right;
   width: 25%;
-  height: 850px;
+  height: 998px;
   padding: 5%;
   margin-top: 5px;
   background-color: white;
@@ -200,30 +201,44 @@ main ul li {
   font-family: 'Rockwell', 'Times Roman', serif;
   font-size: 25px;
 }
+.times {
+  margin-bottom: 5px;
+}
+
+/* The search button on index page */
 .search {
-  margin-top: 80px;
-  margin-bottom: 40px;
-  margin-left: 210px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 200px;
   padding: 20px;
   font-size: 30px;
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
-  color: lightyellow;
+  background-color: #FF6D05;
+  width: 150px;
+  float: right;
+  height: 50px;
 }
-.our-products {
+/* The search button on the shoe care page */
+.search_product {
+  margin-top: 60px;
+  margin-bottom: 50px;
   padding: 20px;
   font-size: 30px;
   font-family: 'Rockwell', 'Times Roman', serif;
-  font-weight: bold;
-  text-align: center;
-  line-height: 150%;
-  color: white;
-  position: relative;
-  left: 10px;
-  margin-top: 40px;
+  border-radius: 6px;
+  background-color: #FF6D05;
+  width: 300px;
+  height: 55px;
+  float: right;
 }
 .products {
   color: white;
+  float: left;
+}
+.col1_contact {
+  background-color: white;
+  padding: 10px;
 }
 
 /* Header and Footer
@@ -364,6 +379,18 @@ container when the user clicks on the dropdown button) */
 }
 
 /* Form styles */
+.heading_form {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 60px;
+}
+.form {
+  text-align: center;
+}
+#contact {
+  background-color: #F7A31E;
+  padding: 10px;
+}
 fieldset {
   width: 80%;
   border: 1px solid #000000;
@@ -382,13 +409,18 @@ legend {
   text-transform: uppercase;
 }
 label {
-  color: #F7A31E;
+  color: black;
 }
+input {
+  border: 2px white;
+}
+
+/* The submit button on the form page */
 input[type="submit"] {
-  width: 130px;
+  width: 300px;
   text-align: center;
   font-size: 20px;
-  color: #1B1464;
+  color: #FF6D05;
   cursor: pointer;
   padding: 10px;
   font-weight: bold;
@@ -396,37 +428,31 @@ input[type="submit"] {
   margin-bottom: 5px;
   margin-left: 80px;
   border-style: outset;
-  border: 5px solid #1B1464;
+  border: 5px solid #FF6D05;
   border-radius: 6px;
 }
 input[type="submit"]:hover {
-  color: purple;
+  color: black;
 }
 input[type="submit"]:active {
-  color: purple;
-  border: 5px solid #1B1464;
+  color: #FF6D05;
+  border: 5px solid black;
+}
+textarea {
+  width: 420px;
+  height: 180px;
+  border: 2px solid black;
 }
 .message {
-  margin-top: 50px;
-  width: 100%;
-  height: 50%;
-  text-transform: uppercase;
+    margin-top: 50px;
+    width: 100%;
+    height: 50%;
+    text-transform: uppercase;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
 }
-input[type="booking"] {
-  width: 140px;
-  text-align: center;
-  font-size: 20px;
-  color: #F7A31E;
-  cursor: pointer;
-  padding: 10px;
-  font-weight: bold;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  margin-left: 60px;
-  border-style: outset;
-  border: 5px solid #1B1464;
-  border-radius: 6px;
-  float: right;
 }
 
 
@@ -469,6 +495,9 @@ h2, h3 {
   position: relative;
   left: 10px;
   margin-top: 40px;
+}
+.search_product {
+  color: #FF6D05;
 }
 header  {
   background: white;
@@ -518,6 +547,7 @@ legend {
   text-align: left;
   text-transform: uppercase;
 }
+/* Proceed to checkout button */
 input[type="submit"] {
   width: 300px;
   text-align: center;
@@ -530,7 +560,7 @@ input[type="submit"] {
   margin-bottom: 40px;
   margin-left: 45px;
   border-style: outset;
-  border: 5px solid #1B1464;
+  border: 5px solid #F7A31E;
   border-radius: 6px;
 }
 input[type="booking"] {
@@ -546,7 +576,7 @@ input[type="booking"] {
   margin-left: 30px;
   margin-right: 100px;
   border-style: outset;
-  border: 5px solid #1B1464;
+  border: 5px solid white;
   border-radius: 6px;
 }
 .message {
@@ -703,12 +733,13 @@ aside {
   height: 1090px;
   padding: 5px;
   margin-top: 5px;
+  margin-bottom: 5px;
   background-color: white;
 }
 .col-2 {
   float: right;
   width: 25%;
-  height: 850px;
+  height: 998px;
   padding: 5%;
   margin-top: 5px;
   background-color: white;
