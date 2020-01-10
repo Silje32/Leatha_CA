@@ -141,55 +141,44 @@ main ul li {
 .shoe1 {
   color: black;
   padding: 10px;
+  width: 350px;
+  height: 420px;
   background-color: white;
+  float: right;
+  margin-bottom: 10px;
 }
 .shoe2 {
   background-color: white;
   float: right;
-  width: 300px;
-  height: 500px;
-}
-.shoe2_img {
-  background-color: white;
-  width: 410px;
-  height: 500px;
-  float: left;
-}
-.shoe3_img {
-  background-color: white;
-  width: 410px;
-  height: 500px;
-  float: left;
-}
-.shoe4_img {
-  background-color: white;
-  width: 410px;
-  height: 500px;
-  float: left;
-}
-.shoe5_img {
-  background-color: white;
-  width: 410px;
-  height: 500px;
-  float: left;
+  width: 350px;
+  height: 430px;
+  padding: 16px;
+  margin-bottom: 5px;
+
 }
 .shoe3 {
   background-color: white;
   float: right;
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 380px;
+  padding: 15px;
+  margin-bottom: 5px;
 }
 .shoe4 {
   background-color: white;
   float: right;
-  width: 400px;
-  height: 500px;
+  width: 350px;
+  height: 350px;
+  padding: 15px;
+  margin-bottom: 5px;
 }
 .shoe5 {
   background-color: white;
+  width: 350px;
+  height: 380px;
+  padding: 15px;
+  margin-bottom: 5px;
   float: right;
-  width: 400px;
-  height: 500px;
 }
 .col-1 {
   float: left;
@@ -342,27 +331,36 @@ container when the user clicks on the dropdown button) */
   width: 70%;
   padding: 40px;
   border-radius: 50%;
-  margin: 0 auto;
 }
 .urbana {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .hiker {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .brogue {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 5px;
 }
 .easy {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .casual {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 5px;
 }
 
 /* Form styles */
@@ -574,16 +572,23 @@ input[type="booking"] {
   border-radius: 6px;
   color: lightyellow;
 }
+.new_urbana {
+  width: 30%;
+}
 .urbana {
-  width: 40%;
+  width: 30%;
 }
 .hiker {
+  width: 30%;
 }
 .brogue {
+  width: 30%;
 }
 .easy {
+  width: 30%;
 }
 .casual {
+  width: 30%;
 }
 footer  {
   background: white;
@@ -613,12 +618,16 @@ footer p a {
   width: 40%;
 }
 .hiker {
+  width: 40%;
 }
 .brogue {
+  width: 40%;
 }
 .easy {
+  width: 40%;
 }
 .casual {
+  width: 40%;
 }
 }
 
@@ -710,9 +719,41 @@ aside {
 }
 .shoe1 {
   color: black;
+  padding: 10px;
+  width: 350px;
+  height: 420px;
+  background-color: white;
+  float: right;
+  margin-bottom: 10px;
 }
 .shoe2 {
   background-color: white;
+  float: right;
+  width: 350px;
+  height: 430px;
+  padding: 16px;
+  margin-bottom: 5px;
+}
+.shoe3 {
+  background-color: white;
+  float: right;
+  width: 350px;
+  height: 380px;
+}
+.shoe4 {
+  background-color: white;
+  float: right;
+  width: 350px;
+  height: 350px;
+  padding: 5px;
+}
+.shoe5 {
+  background-color: white;
+  width: 350px;
+  height: 380px;
+  margin-bottom: 5px;
+  float: right;
+  padding: 15px;
 }
 button {
   width: 230px;
@@ -802,27 +843,36 @@ main ul li {
   width: 70%;
   padding: 40px;
   border-radius: 50%;
-  margin: 0 auto;
 }
 .urbana {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .hiker {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .brogue {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 5px;
 }
 .easy {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 15px;
 }
 .casual {
-  width: 100%;
+  width: 60%;
   padding: 5px;
+  float: left;
+  margin-top: 5px;
 }
 footer  {
   background: white;
