@@ -53,7 +53,7 @@ function checkPostalCode(postalcode) {
 
 //Validating that the phone and e-mail adress are correct.
 function checkPhone(phone) {
-  var myPhone = /^d\d\d\d\d\d\d\d$/;
+  var myPhone =   /^\d{8}$/;
   if (phone.match(myPhone)) {
      return true;
   }  else {
