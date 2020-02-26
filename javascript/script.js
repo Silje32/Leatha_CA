@@ -63,7 +63,7 @@ function checkPhone(phone) {
 }
 
 function checkEmail(email) {
-  var myEmail = /\w+\.\w+\/;
+  var myEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
   if (email.match(myEmail)) {
      return true;
   }) else {
