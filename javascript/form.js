@@ -11,7 +11,7 @@ function checkFullName(fullname) {
   if (fullname.match(myName)) {
      return true;
   }  else {
-     alert( "Please enter your name and last name here" );
+     console.log( "Please enter your name and last name here" );
      return false;
   }
 }
@@ -24,7 +24,7 @@ function checkAddress(address) {
   if (address.match(myAddress)) {
      return true;
   }  else {
-     alert( "Please enter your address here" );
+     console.log( "Please enter your address here" );
      return false;
   }
 }
@@ -37,7 +37,7 @@ function checkPostalCode(postalcode) {
    if (!postalcode.match(myPostalCode)) {
       return true;
    }  else {
-      alert( "The postal code entered is invalid" );
+      console.log( "The postal code entered is invalid" );
       return false;
    }
 }
@@ -50,7 +50,7 @@ function checkPhone(phone) {
   if (phone.match(myPhone)) {
      return true;
   }  else {
-     alert( "The phone number entered is invalid!" );
+     console.log( "The phone number entered is invalid!" );
      return false;
   }
 }
@@ -60,7 +60,7 @@ function checkEmail(email) {
   if (email.match(myEmail)) {
      return true;
   }  else {
-     alert( "The e-mail number entered is invalid!" );
+     console.log( "The e-mail number entered is invalid!" );
      return false;
   }
 }
