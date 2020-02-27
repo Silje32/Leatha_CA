@@ -3,13 +3,6 @@
 //Select the form:
 const form = document.querySelector("form");
 
-// Submit event
-function validateForm(event) {
-  alert ("The form was submitted");
-}
-
-form.addEventListener("submit", validateForm);
-
 
 
 //Validating that the full name inputs are not empty.
