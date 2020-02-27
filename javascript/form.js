@@ -40,8 +40,8 @@ function checkAddress(address) {
 
 //Validating that the postal code input is not empty.
 function checkPostalCode(postalcode) {
-   var myPostalCode = //;
-   if (postalcode.match(myPostalCode)) {
+   var myPostalCode = /^\d{4}$/;
+   if (!postalcode.match(myPostalCode)) {
       return true;
    }  else {
       alert( "The postal code entered is invalid" );
