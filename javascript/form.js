@@ -66,23 +66,21 @@ function checkEmail(email) {
   var myEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
   if (email.match(myEmail)) {
      return true;
-  }) else {
+  }  else {
      alert( "The e-mail number entered is invalid!" );
      return false;
   }
 }
 
 
-//Function to check the submit button.
-function checkSubmitBtn (submit) {
-  var mySubmitBtn = testInfo(document.getElementById('submit'));
-  if (submit === true) {
-     console.log("True");
-}    else {
-     console.log("False");
-  }
+//Function to check that the submit button is working.
+
+form.addEventListener("submit", validateForm);
+
+function validateForm(event) {
+    event.preventDefault();
+    alert("the form was successfully submitted");
 }
-checkSubmitBtn();
 
 
 
