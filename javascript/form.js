@@ -71,7 +71,12 @@ function checkEmail(email) {
 form.addEventListener("submit", validateForm);
 
 function validateForm(event) {
+
+/* To prevent the browser´s default behaviour of reloading the page when a
+form gets submitted. Otherwise none of the JavaScript written will run as the
+page will simply refresh*/
     event.preventDefault();
+
     alert("the form was successfully submitted");
 }
 
