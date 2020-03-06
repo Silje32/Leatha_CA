@@ -97,6 +97,20 @@ button {
   border-radius: 6px;
 }
 
+/* Action button on index page */
+a.action {
+  display: inline-block;
+  width: 230px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: #FF6D05;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 6px;
+}
+
 .location {
   margin: 0 auto;
 }
@@ -544,6 +558,7 @@ legend {
   text-align: left;
   text-transform: uppercase;
 }
+
 /* Proceed to checkout button */
 input[type="submit"] {
   width: 300px;
