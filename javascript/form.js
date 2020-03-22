@@ -1,76 +1,94 @@
 //Use RegEx to validate form
 
-//Select the form:
-const form = document.querySelector("form");
+//Validating that "full name" input are not empty.
+function validateFullName(name) {
+	 var firstNameError = document.querySelector("#nameError");
 
-// Submit event
-function validateForm(event) {
-  alert ("The form was submitted");
-}
-
-form.addEventListener("submit", validateForm);
-
-
-
-//Validating that the full name inputs are not empty.
-function checkFullName(fullname) {
-  var myName = /(\w+)/;
-  if (fullname.match(myName)) {
-     return true;
-  }  else {
-     alert( "Please enter your name and last name here" );
-     return false;
-  }
-}
-
+	 if (name.length === 0) {
+			 firstNameError.style.display = "block";
+	 }
+	 else {
+			 firstNameError.style.display = "none";
+	 }
+ }
 
 
 //Validating that the address input is not empty.
-function checkAddress(address) {
-  var myAddress = /(\w+)/;
-  if (address.match(myAddress)) {
-     return true;
-  }  else {
-     alert( "Please enter your address here" );
-     return false;
+function validateAddress(address) {
+  var addressError = document.querySelector("#addressError");
+
+  if (address.length === 0) {
+      addressError.style.display = "block";
+  }
+  else {
+      addressError.style.display = "none";
   }
 }
 
 
-
 //Validating that the postal code input is not empty.
-function checkPostalCode(postalcode) {
-   var myPostalCode = /^\d{4}$/;
+function validatePostalCode(postalcode) {
+   var postalError = document.querySelector("#postalError");
+   var postalCodePattern = /^\d{4}$/;
+
+/* The exclamation mark checks if the pattern doesn't match so if it doesn't
+   match display the error otherwise hide the error */
    if (!postalcode.match(myPostalCode)) {
-      return true;
-   }  else {
-      alert( "The postal code entered is invalid" );
-      return false;
+      postalError.style.display = "block";
+   }
+   else {
+      phoneError.style.display ="none";
    }
 }
 
 
+//Validating that the phone number is correct.
+ function validatePhone(phone) {
+	var phoneError = document.querySelector("#phoneError");
+	var phonePattern = /^\d{3}\ \d{3}\ \d{4}$/;
 
-//Validating that the phone and e-mail adress are correct.
-function checkPhone(phone) {
-  var myPhone =   /^\d{8}$/;
-  if (phone.match(myPhone)) {
-     return true;
-  }  else {
-     alert( "The phone number entered is invalid!" );
-     return false;
+/* The exclamation mark checks if the pattern doesn't match so if it doesn't
+   match display the error otherwise hide the error */
+	if (!phone.match(phonePattern)) {
+		phoneError.style.display = "block";
+	}
+	else {
+		phoneError.style.display = "none";
+	}
+}
+
+
+//Validating that the e-mail adress is correct.
+function validateEmail(email) {
+  var emailError = document.querySelector("#emailError");
+  var emailPattern = /\S+@\S+.\S+/;
+
+/* The exclamation mark checks if the pattern doesn't match so if it doesn't
+  match display the error otherwise hide the error */
+  if (!email.match(emailPattern)) {
+    emailError.style.display = "block";
+  }
+  else {
+    emailError.style.display = "none";
   }
 }
 
-function checkEmail(email) {
-  var myEmail = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
-  if (email.match(myEmail)) {
-     return true;
-  }  else {
-     alert( "The e-mail number entered is invalid!" );
-     return false;
-  }
-}
+
+
+//The function will be called inside the form's eventListener
+var form = document.querySelector('form');
+
+form.addEventListener('submit', function(event) {
+
+  event.preventDefault();
+
+  validateFullName(this.name.value);
+  validateAddress(this.address.value);
+  validatePostalCode(this.postalcode.value);
+  validatePhone(this.phone.value);
+  validateEmail(this.email.value);
+});
+
 
 
 //Function to check that the submit button is working.

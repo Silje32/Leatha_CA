@@ -425,6 +425,10 @@ label {
 input {
   border: 2px white;
 }
+.form-error {
+    color: red;
+    display: none;
+}
 
 /* The submit button on the form page */
 input[type="submit"] {
@@ -932,5 +936,9 @@ footer p a {
     font-weight: bold;
     text-align: center;
     margin-left: 400px;
+}
+.form-error {
+    color: red;
+    display: none;
 }
 }
