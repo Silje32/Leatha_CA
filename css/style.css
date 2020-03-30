@@ -330,7 +330,7 @@ footer p a:hover {
 }
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: block;
+  display: none;
   position: absolute;
   background-color: white;
   min-width: 30%;
