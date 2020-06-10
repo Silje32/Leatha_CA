@@ -3,7 +3,7 @@
    <head>
       <meta charset="utf-8">
       <meta name="description" content="A page for explaining what Letha is">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title> LETHA </title>
 
       <!-- Typeface: Montserrat -->
@@ -18,53 +18,59 @@
 
    </head>
    <body>
+     <header>
+       <div class="search">
+          <label>SEARCH:
+          <input type="text" name="search" /></label>
+       </div>
      <div id="page">
      <div id="top">
-       <h1 class="main-heading">LETHA</h1>
-       <h2 class="company">- A LEATHER SHOE COMPANY</h2>
-       <header>
+        <h1 class="main-heading">LETHA</h1>
+        <h2 class="company">- A LEATHER SHOE COMPANY</h2>
+     </header>
          <nav>
+           <ul>
              <div class="navbar">
-              <a href="index.html">HOME</a>
-              <a href="about.html">ABOUT</a>
-              <a href="care.html">SHOE CARE</a>
-             <div class="dropdown">
-               <button class="dropbtn" onclick="myFunction()">SHOES
-                 <i class="fa fa-caret-down"></i>
-               </button>
-            <div class="dropdown-content" id="myDropdown">
-              <a href="hiker.html">Hiker</a>
-              <a href="brogue.html">Brogue</a>
-              <a href="easy.html">Easy</a>
-              <a href="casual.html">Casual</a>
-            </div>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT</a></li>
+                 <li><a href="care.html">SHOE CARE</a></li>
+              <div class="dropdown">
+                 <button class="dropbtn" onclick="myFunction()">SHOES
+                      <i class="fa fa-caret-down"></i>
+                 </button>
+              <div class="dropdown-content" id="myDropdown">
+                 <li><a href="hiker.html">Hiker</a></li>
+                 <li><a href="brogue.html">Brogue</a></li>
+                 <li><a href="easy.html">Easy</a></li>
+                 <li><a href="casual.html">Casual</a></li>
+              </div>
+              </div>
              </div>
-             </div>
-           </nav>
-       </header>
+           </ul>
+         </nav>
            <main>
              <article>
-               <section class="col1">
-                 <h3>SUSTAINABLY MADE</h3>
-               </section>
-               <section class="col2">
-                 <h3>HANDCRAFTED AND ORGANIC</h3>
-               </section>
+                  <div class="container_1">
+                      <section class="col1">
+                           <h3>SUSTAINABLY MADE</h3>
+                      </section>
+                      <section class="col2">
+                           <h3>HANDCRAFTED AND ORGANIC</h3>
+                      </section>
+                  </div>
              </article>
-             <form method="get">
-               <div class="search">
-                 <label>SEARCH:
-                 <input type="text" name="search" /></label>
-               </div>
-             <aside>
-                <h2 class="news">NEWS</h2>
+
+             <div class="container_2">
+                <section class="col3">
+                    <h2 class="news">NEWS</h2>
                     <img src="images/urban.jpg" alt="A picture of the Urban shoe"
                          class="news_urbana"/>
-                    <a href="urbana.html" class="action">SEE NEWS</a>
-             </aside>
+                      <a href="urbana.html" class="action">SEE NEWS</a>
+                </section>
+             </div>
            </main>
        <footer>
-        <p><a href="#top" title="back to the top">Back to top</a></p>
+           <p><a href="#top" title="back to the top">Back to top</a></p>
        </footer>
      </div>
        <script src="javascript/script.js"></script>

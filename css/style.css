@@ -11,7 +11,7 @@
 -------------------*/
 
 html, body {
-  max-width: 1024px;
+  max-width: 100%;
   background: black;
   font-family: 'Rockwell', 'Times Roman', serif;
   font-weight: italic;
@@ -257,7 +257,7 @@ main ul li {
 
 /*header*/
 header  {
-  background: white;
+  background-color: #FF6D05;
   padding: 25px;
   position: sticky;
   top: 0;
@@ -476,7 +476,15 @@ textarea {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-
+  .container_1, .container_2, .container_3  {
+    flex-direction: column;
+  }
+  body {
+    width: 400px;
+  }
+  header {
+    height: 60px;
+  }
 
 /* Proceed to checkout button */
 
@@ -490,8 +498,15 @@ textarea {
 
 /*desktop styles*/
 @media only screen and (min-width:769px) {
-
-
+  html, body {
+    max-width: 100%;
+  }
+  .main-heading {
+    color: white;
+    background: black;
+    margin-top: 10px;
+    text-align: center;
+  }
 /*  Nav -bar  */
 
 
