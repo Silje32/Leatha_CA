@@ -62,27 +62,27 @@ article {
   float: left;
   width: 600px;
 }
-aside {
-  float: right;
-  width: 410px;
+.col3 {
+  width: 100%;
+  float: left;
   background-color: white;
   height: 480px;
   margin-bottom: 5px;
+}
+.col1, .col2 {
+  width: 40%;
+  padding: 10px;
 }
 .col1 {
   background-color: white;
   height: 540px;
   float: left;
-  padding: 10px;
-  width: 270px;
   margin-bottom: 10px;
 }
 .col2 {
   background-color: white;
   height: 540px;
   float: right;
-  padding: 10px;
-  width: 270px;
   margin-bottom: 10px;
 }
 button {
@@ -194,7 +194,7 @@ main ul li {
   margin-bottom: 5px;
   float: right;
 }
-.col-1 {
+.col1_about {
   float: left;
   width: 60%;
   height: 1090px;
@@ -203,7 +203,7 @@ main ul li {
   margin-bottom: 5px;
   background-color: white;
 }
-.col-2 {
+.col2_about {
   float: right;
   width: 25%;
   height: 998px;
@@ -353,9 +353,8 @@ container when the user clicks on the dropdown button) */
 
 /* Images
 -------------------*/
-
 .news_urbana {
-  width: 70%;
+  width: 50%;
   padding: 40px;
   border-radius: 50%;
 }
@@ -388,6 +387,9 @@ container when the user clicks on the dropdown button) */
   padding: 5px;
   float: left;
   margin-top: 5px;
+}
+.menu {
+  display: none;
 }
 
 /* Form styles */
@@ -483,9 +485,33 @@ textarea {
     width: 400px;
   }
   header {
-    height: 60px;
+    height: 50px;
   }
-
+  .menu {
+    display: block;
+    width: 20%;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 360px;
+  }
+  .main-heading {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  .col1, .col2 {
+    width: 90%;
+    padding: 10px;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .news_urbana {
+    width: 70%;
+    padding: 20px;
+    border-radius: 60%;
+  }
 /* Proceed to checkout button */
 
 }
@@ -503,9 +529,20 @@ textarea {
   }
   .main-heading {
     color: white;
-    background: black;
     margin-top: 10px;
     text-align: center;
+  }
+  .col1, .col2 {
+    width: 40%;
+    padding: 10px;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .news_urbana {
+    width: 50%;
+    padding: 40px;
+    border-radius: 50%;
   }
 /*  Nav -bar  */
 
@@ -522,6 +559,8 @@ container when the user clicks on the dropdown button) */
 
 /* Images
 -------------------*/
-
+.menu {
+  display: none;
+}
 
 }

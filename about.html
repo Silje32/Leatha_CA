@@ -2,8 +2,9 @@
 <html lang="en">
    <head>
       <meta charset="utf-8">
-      <meta name="description" content="A page for explaining the history of Letha,
-      where to find us and how to contact us">
+      <meta name="description"
+            content="A page for explaining the history of Letha, where to find us and how to contact us">
+      <meta name="keywords" content="handcrafted,leather,shoes">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <title> ABOUT </title>
 
@@ -19,14 +20,23 @@
 
    </head>
    <body>
-     <div id="page">
-     <div id="top">
-       <h1 class="main-heading">LETHA</h1>
-       <h2 class="company">- A LEATHER SHOE COMPANY</h2>
-       <header>
+     <header>
+       <div class="search">
+          <label>SEARCH:
+          <input type="text" name="search" /></label>
+       </div>
+         <div id="page">
+         <div id="top">
+           <a href="menu.html">
+               <img src="images/menu.svg"
+                    alt="hamburger menu"
+                    class="menu"></a>
+            <h1 class="main-heading">LETHA</h1>
+            <h2 class="company">- A LEATHER SHOE COMPANY</h2>
+     </header>
            <nav>
              <div class="navbar">
-              <a href="../index.html">HOME</a>
+              <a href="index.html">HOME</a>
               <a href="about.html">ABOUT</a>
               <a href="care.html">SHOE CARE</a>
              <div class="dropdown">
@@ -42,9 +52,8 @@
              </div>
              </div>
            </nav>
-       </header>
-           <main>
-                 <section class="col-1">
+        <main>
+                 <section class="col1_about">
                    <h2>LOCATION</h2>
                      <ul class="visit">
                         <li>Letha Shoes</li>
@@ -71,14 +80,14 @@
                        <li>Sunday: Closed</li>
                      </ul>
                  </section>
-                 <section class="col-2">
+                 <section class="col2_about">
                    <h3 class="location">OUR HISTORY</h3>
                  </section>
-           </main>
+        </main>
        <footer>
-        <p><a href="#top" title="back to the top">Back to top</a></p>
+          <p><a href="#top" title="back to the top">Back to top</a></p>
        </footer>
      </div>
-     <script src="../javascript/script.js"></script>
+     <script src="javascript/script.js"></script>
    </body>
 </html>
