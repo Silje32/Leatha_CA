@@ -4,6 +4,7 @@
 03. #FF6D05 - dark orange
 04. #F7A31E - orange
 05. lightyellow
+06. #A2F4E4 - action buttons
 */
 
 
@@ -34,11 +35,18 @@ h1 {
 }
 .main-heading {
   color: white;
-  margin-top: 10px;
-  text-align: center;
+  font-size: 60px;
+  position: absolute;
+  top: 2px;
+  left: 170px;
+
 }
 .company {
   color: white;
+  font-size: 35px;
+  position: absolute;
+  top: 100px;
+  left: 170px;
 }
 h2 {
   font-weight: bold;
@@ -56,11 +64,17 @@ h3 {
   font-weight: bold;
 }
 .news {
-  text-align: center;
+  position: absolute;
+  top: 910px;
+  left: 900px;
 }
-article {
-  float: left;
-  width: 600px;
+.container_1  {
+  display : flex;
+  width: 100%;
+}
+.container_2 {
+  display: flex;
+  width: 100%;
 }
 .col3 {
   width: 100%;
@@ -69,21 +83,21 @@ article {
   height: 480px;
   margin-bottom: 5px;
 }
+.col1, .col2, .col3 {
+  flex: 1;
+}
 .col1, .col2 {
-  width: 40%;
-  padding: 10px;
+  background-color: white;
+  height: 540px;
+  margin-bottom: 10px;
 }
 .col1 {
-  background-color: white;
-  height: 540px;
   float: left;
   margin-bottom: 10px;
+  margin-right: 45px;
 }
 .col2 {
-  background-color: white;
-  height: 540px;
   float: right;
-  margin-bottom: 10px;
 }
 button {
   width: 230px;
@@ -103,14 +117,19 @@ a.action {
   width: 230px;
   text-align: center;
   font-size: 20px;
-  color: white;
-  background-color: #FF6D05;
+  color: black;
+  background-color: #A2F4E4;
   text-decoration: none;
   cursor: pointer;
   padding: 10px;
   border-radius: 6px;
+  border: 2px solid black;
 }
-
+.action {
+  position: absolute;
+  top: 1300px;
+  left: 950px;
+}
 .location {
   margin: 0 auto;
 }
@@ -218,17 +237,17 @@ main ul li {
 
 /* The search button on index page */
 .search {
-  margin-top: 10px;
-  margin-bottom: 20px;
-  margin-left: 200px;
+  position: relative;
+  top: 5px;
+  left: 1000px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 20px;
   font-family: 'Rockwell', 'Times Roman', serif;
   border-radius: 6px;
   background-color: #FF6D05;
   width: 150px;
-  float: right;
   height: 50px;
+  display: inline-block;
 }
 /* The search button on the shoe care page */
 .search_product {
@@ -260,14 +279,13 @@ header  {
   background-color: #FF6D05;
   padding: 25px;
   position: sticky;
-  top: 0;
+  top: 0px;
   width: 100%;
-  max-width: 1260px;
+  height: 110px;
   z-index: 1;
   border-radius: 6px;
   margin: 0 auto;
   margin-bottom: 20px;
-  margin-top: 5px;
 }
 footer  {
   background: white;
@@ -300,6 +318,7 @@ footer p a:hover {
   overflow: hidden;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  display: block;
 }
 .navbar a {
   float: left;
@@ -357,6 +376,9 @@ container when the user clicks on the dropdown button) */
   width: 50%;
   padding: 40px;
   border-radius: 50%;
+  position: absolute;
+  top: 900px;
+  left: 10px;
 }
 .urbana {
   width: 60%;
@@ -478,34 +500,54 @@ textarea {
 
 /*mobile styles*/
 @media only screen and (max-width: 480px) {
-  .container_1, .container_2, .container_3  {
+  .container_1, .container_2 {
     flex-direction: column;
   }
   body {
-    width: 400px;
+    width: 100%;
   }
   header {
-    height: 50px;
+    height: 55px;
+    width: 90%;
   }
   .menu {
     display: block;
-    width: 20%;
+    width: 15%;
     color: white;
-    position: relative;
-    top: 10px;
-    left: 360px;
+    position: absolute;
+    top: 5px;
+    left: 340px;
   }
   .main-heading {
-    color: white;
-    text-align: center;
+    position: relative;
+    top: 5px;
+    left: 5px;
     font-size: 40px;
   }
+  .company {
+    position: absolute;
+    top: 45px;
+    left: 15px;
+    font-size: 20px;
+  }
+  .search {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
   .col1, .col2 {
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+  }
+  .col1 {
+    order: 1;
+  }
+  .col2 {
+    order: 2;
   }
   .col3 {
     width: 100%;
+    order: 3;
   }
   .news_urbana {
     width: 70%;
@@ -527,14 +569,46 @@ textarea {
   html, body {
     max-width: 100%;
   }
+  header  {
+    background-color: #FF6D05;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    max-width: 1260px;
+    z-index: 1;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 5px;
+  }
   .main-heading {
+    font-size: 60px;
+    position: absolute;
+    top: 2px;
+    left: 170px;
+  }
+  .company {
     color: white;
-    margin-top: 10px;
-    text-align: center;
+    font-size: 35px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+  }
+  .search {
+    display: inline-block;
   }
   .col1, .col2 {
-    width: 40%;
-    padding: 10px;
+      flex: 1;
+  }
+  .col1 {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 25px;
+  }
+  .col2 {
+    float: right;
+    margin-bottom: 10px;
   }
   .col3 {
     width: 100%;
@@ -544,8 +618,11 @@ textarea {
     padding: 40px;
     border-radius: 50%;
   }
-/*  Nav -bar  */
 
+/*  Nav -bar  */
+.navbar {
+  display: block;
+}
 
 /* Dropdown Content (Hidden by Default) */
 
