@@ -372,7 +372,8 @@ container when the user clicks on the dropdown button) */
 /* Images
 -------------------*/
 .news_urbana {
-  width: 40%;
+  width: 50%;
+  padding: 40px;
   border-radius: 50%;
   position: absolute;
   top: 900px;
