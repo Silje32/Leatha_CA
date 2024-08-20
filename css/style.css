@@ -280,6 +280,7 @@ header  {
   position: sticky;
   top: 0px;
   width: 100%;
+  max-width: 1260px;
   height: 110px;
   z-index: 1;
   border-radius: 6px;
