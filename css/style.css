@@ -1,4 +1,4 @@
-/*Color Palette
+/* Color Palette
 01. black
 02. white
 03. #FF6D05 - dark orange
@@ -277,7 +277,6 @@ main ul li {
 /*header*/
 header  {
   background-color: #FF6D05;
-  padding: 25px;
   position: sticky;
   top: 0px;
   width: 100%;
