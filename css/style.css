@@ -111,14 +111,6 @@ button {
 }
 
 /* Action button on index page */
-.news_urbana {
-  width: 50%;
-  padding: 40px;
-  border-radius: 50%;
-  position: absolute;
-  top: 900px;
-  left: 10px;
-}
 a.action {
   display: inline-block;
   width: 230px;
@@ -378,39 +370,69 @@ container when the user clicks on the dropdown button) */
 
 /* Images
 -------------------*/
+
+/* index.html
+------------------*/
+.news_urbana {
+  width: 50%;
+  padding: 40px;
+  border-radius: 50%;
+  position: absolute;
+  top: 900px;
+  left: 10px;
+}
+
+/* urbana.html
+------------------*/
 .urbana {
   width: 60%;
   padding: 5px;
   float: left;
   margin-top: 15px;
 }
-.hiker {
+
+/* hiker.html
+------------------*/
+.hiker { 
   width: 60%;
   padding: 5px;
   float: left;
   margin-top: 15px;
 }
+
+/* brogue.html
+------------------*/
 .brogue {
   width: 60%;
   padding: 5px;
   float: left;
   margin-top: 5px;
 }
+
+/* easy.html
+------------------*/
 .easy {
   width: 60%;
   padding: 5px;
   float: left;
   margin-top: 15px;
 }
+
+/* casual.html
+------------------*/
 .casual {
   width: 60%;
   padding: 5px;
   float: left;
   margin-top: 5px;
 }
+
+/* menu.html
+------------------*/
 .menu {
   display: none;
 }
+
 
 /* Form styles */
 .heading_form {
