@@ -289,7 +289,7 @@ footer  {
   background: white;
   padding: 10px;
   width: 100%;
-  max-width: 1300px;
+  max-width: 1310px;
   margin-top: 5px;
   clear: both;
 }
@@ -543,7 +543,7 @@ textarea {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin-left: 180px;
+    margin-left: 160px;
 }
   .menu {
     display: block;
@@ -615,7 +615,7 @@ textarea {
     font-style: italic;
     font-weight: bold;
     text-align: left;
-    margin-left: 400px;
+    margin-left: 800px;
 }
 
 }
@@ -642,7 +642,7 @@ textarea {
     background: white;
     padding: 10px;
     width: 100%;
-    max-width: 1260px;
+    max-width: 1310px;
     margin-top: 5px;
     clear: both;
   }
