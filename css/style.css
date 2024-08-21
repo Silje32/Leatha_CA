@@ -571,7 +571,7 @@ textarea {
   }
   .news_urbana {
     width: 30%;
-    padding: 20px;
+    padding: 10px;
     border-radius: 60%;
   }
 /* Proceed to checkout button */
@@ -582,7 +582,7 @@ textarea {
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .news_urbana {
     width: 40%;
-    padding: 40px;
+    padding: 20px;
     border-radius: 50%;
   }
 
@@ -660,7 +660,7 @@ container when the user clicks on the dropdown button) */
 }
 .news_urbana {
   width: 40%;
-  padding: 40px;
+  padding: 20px;
   border-radius: 50%;
 }
 
