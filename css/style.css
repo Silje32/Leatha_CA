@@ -289,7 +289,7 @@ footer  {
   background: white;
   padding: 10px;
   width: 100%;
-  max-width: 1310px;
+  max-width: 1320px;
   margin-top: 5px;
   clear: both;
 }
@@ -299,8 +299,8 @@ footer p a {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
-    margin-left: 400px;
+    text-align: right;
+    margin-left: 800px;
 }
 footer p a:visited {
   color: black;
@@ -614,7 +614,7 @@ textarea {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     margin-left: 800px;
 }
 
@@ -652,7 +652,7 @@ textarea {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
     margin-left: 400px;
 }
   .main-heading {
