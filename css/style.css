@@ -544,7 +544,7 @@ textarea {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 200px;
 }
   .menu {
     display: block;
@@ -615,7 +615,7 @@ textarea {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 400px;
 }
 
@@ -644,8 +644,7 @@ textarea {
     padding: 10px;
     width: 100%;
     max-width: 1260px;
-    border-radius: 6px;
-    margin-top: 10px;
+    margin-top: 5px;
     clear: both;
   }
   footer p a {
@@ -654,7 +653,7 @@ textarea {
     font-family: 'Rockwell', 'Times Roman', serif;
     font-style: italic;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     margin-left: 400px;
 }
   .main-heading {
