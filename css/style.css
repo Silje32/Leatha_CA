@@ -570,7 +570,7 @@ textarea {
     order: 3;
   }
   .news_urbana {
-    width: 70%;
+    width: 30%;
     padding: 20px;
     border-radius: 60%;
   }
@@ -580,7 +580,11 @@ textarea {
 
 /*tablet styles*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-
+  .news_urbana {
+    width: 40%;
+    padding: 40px;
+    border-radius: 50%;
+  }
 
 }
 
@@ -633,15 +637,10 @@ textarea {
   .col3 {
     width: 100%;
   }
-  .news_urbana {
-    width: 50%;
-    padding: 40px;
-    border-radius: 50%;
-  }
 
 /*  Nav -bar  */
-.navbar {
-  display: block;
+  .navbar {
+    display: block;
 }
 
 /* Dropdown Content (Hidden by Default) */
@@ -658,6 +657,11 @@ container when the user clicks on the dropdown button) */
 -------------------*/
 .menu {
   display: none;
+}
+.news_urbana {
+  width: 40%;
+  padding: 40px;
+  border-radius: 50%;
 }
 
 }
