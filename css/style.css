@@ -537,6 +537,15 @@ textarea {
     margin-top: 5px;
     clear: both;
   }
+  footer p a {
+    color: #FF6D05;
+    text-decoration: none;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 100px;
+}
   .menu {
     display: block;
     width: 15%;
@@ -600,6 +609,15 @@ textarea {
     margin-top: 5px;
     clear: both;
   }
+  footer p a {
+    color: #FF6D05;
+    text-decoration: none;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;
+}
 
 }
 
@@ -630,6 +648,15 @@ textarea {
     margin-top: 10px;
     clear: both;
   }
+  footer p a {
+    color: #FF6D05;
+    text-decoration: none;
+    font-family: 'Rockwell', 'Times Roman', serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 400px;
+}
   .main-heading {
     font-size: 60px;
     position: absolute;
