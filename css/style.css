@@ -616,7 +616,13 @@ textarea {
     font-weight: bold;
     text-align: right;
     margin-left: 800px;
-}
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+  }
 
 }
 
@@ -688,8 +694,11 @@ textarea {
   }
 
 /*  Nav -bar  */
-  .navbar {
-    display: block;
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  display: block;
 }
 
 /* Dropdown Content (Hidden by Default) */
