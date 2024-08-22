@@ -532,7 +532,7 @@ textarea {
     background: white;
     padding: 3px;
     width: 100%;
-    max-width: 480px;
+    max-width: 475px;
     margin-top: 5px;
     clear: both;
   }
@@ -543,7 +543,7 @@ textarea {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin-left: 180px;
+    margin-left: 200px;
 }
   .menu {
     display: block;
