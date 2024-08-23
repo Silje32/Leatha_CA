@@ -327,6 +327,7 @@ footer p a:hover {
   padding: 14px 16px;
   text-decoration: none;
   background: white;
+  margin-left: 20px;
 }
 .dropdown {
   float: left;
@@ -640,8 +641,8 @@ textarea {
     padding: 14px 16px;
     text-decoration: none;
     background: white;
+    margin-left: 20px;
   }
-
 }
 
 /*desktop styles*/
@@ -729,6 +730,7 @@ textarea {
   padding: 14px 16px;
   text-decoration: none;
   background: white;
+  margin-left: 20px;
 }
 
 /* Dropdown Content (Hidden by Default) */
