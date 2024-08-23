@@ -703,8 +703,9 @@ textarea {
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   width: 100%;
-  max-width: 1360px;
+  max-width: 1380px;
   display: block;
+  margin: 0 auto;
 }
 
 /* Dropdown Content (Hidden by Default) */
