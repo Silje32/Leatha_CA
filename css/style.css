@@ -573,6 +573,9 @@ textarea {
   .navbar {
     display: none;
   }
+  .navbar a {
+    display: none;
+  }  
   .col1, .col2 {
     width: 100%;
   }
@@ -627,7 +630,14 @@ textarea {
     max-width: 768px;
     display: block;
   }
-
+  .navbar a {
+    float: left;
+    font-size: 18px;
+    color: #F7A31E;
+    text-align: center;
+    text-decoration: none;
+    background: white;
+  }
 }
 
 /*desktop styles*/
@@ -663,7 +673,7 @@ textarea {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    margin-right: 1000px;
+    margin-right: 900px;
 }
   .main-heading {
     font-size: 60px;
@@ -706,6 +716,15 @@ textarea {
   max-width: 1380px;
   display: block;
   margin: 0 auto;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: #F7A31E;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background: white;
 }
 
 /* Dropdown Content (Hidden by Default) */
