@@ -314,6 +314,8 @@ footer p a:hover {
   overflow: hidden;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 1260px;
   display: block;
 }
 .navbar a {
@@ -525,8 +527,8 @@ textarea {
     width: 100%;
   }
   header {
-    height: 55px;
-    width: 90%;
+    height: 60px;
+    width: 100%;
   }
   footer  {
     background: white;
@@ -621,6 +623,8 @@ textarea {
     overflow: hidden;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    max-width: 768px;
     display: block;
   }
 
@@ -698,6 +702,8 @@ textarea {
   overflow: hidden;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  max-width: 1260px;
   display: block;
 }
 
